@@ -2,7 +2,9 @@ var articles = [];
 
 function Article (opts) {
   this.author = opts.author;
-}
+  // broken for testing
+  [
+
 
 Article.prototype.toHtml = function() {
   var $newArticle = $('article.template').clone();
