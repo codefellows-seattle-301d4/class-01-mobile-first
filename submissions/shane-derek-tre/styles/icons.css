@@ -23,7 +23,7 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-hamburger::before{
+.icon-hamburger::before {
 	content: "\e9bd";
 }
 
