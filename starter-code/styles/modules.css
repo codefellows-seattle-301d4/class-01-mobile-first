@@ -55,6 +55,22 @@
   text-decoration: none;
 }
 
+@media only screen and (min-width: 640px){
+  .icon-menu{
+    display: none;
+  }
+  .main-nav ul{
+    display: block;
+  }
+  .main-nav ul li{
+    display: inline;
+    padding: .5em 1em;
+  }
+  .main-nav ul li:first-child{
+    padding-left: .8em;
+  }
+}
+
 /* TODO: Now add styles for how things should look on a larger screen,
    (hint: min is in!):
 @media only screen...
